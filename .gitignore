@@ -1,0 +1,6 @@
+/node
+/node_modules
+!/node_modules/single-binary-transform
+.node
+.swp
+.DS_Store
