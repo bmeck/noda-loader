@@ -1,13 +1,12 @@
 {
   "name": "noda-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/noda-module-system.js",
   "scripts": {
-    "pretest": "echo Building zip; cd tests/fixtures && zip -r -y test.zip example.node.extracted/ && mv test.zip basic/example.noda",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd tests; sh build.sh"
   },
-  "author": "",
+  "author": "bradleymeck",
   "license": "ISC",
   "bundledDependencies": ["single-binary-transform"],
   "dependencies": {
