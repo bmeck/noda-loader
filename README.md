@@ -30,8 +30,10 @@ Checkout noda-loader and generate our `_third_party_main.js` for node.
 
 ```
 git clone git@github.com:bmeck/noda-loader
-cd noda-loader/generate-single-binary
-  sh generate-third-party-main > "$PATH_TO_NODE_REPO"/lib/_third_party_main.js
+cd noda-loader
+  npm i
+  cd generate-single-binary
+    sh generate-third-party-main.sh > "$PATH_TO_NODE_REPO"/lib/_third_party_main.js
 ```
 
 Configure and build node
