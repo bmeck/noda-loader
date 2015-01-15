@@ -8,8 +8,12 @@
   },
   "author": "bradleymeck",
   "license": "ISC",
-  "bundledDependencies": ["single-binary-transform"],
+  "bundledDependencies": [
+    "single-binary-transform"
+  ],
   "dependencies": {
+    "array-trie": "^1.0.0",
+    "buffer-crc32": "^0.2.5",
     "debug": "^2.1.0",
     "has": "^1.0.0",
     "pako": "^0.2.5"

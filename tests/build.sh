@@ -37,3 +37,16 @@ cd zip-oddities;
  
 cd ..;
 
+cd zip-hardlinks;
+  # generate .noda files
+  for dir in $(ls -d */); do
+    zip -r -y $(basename $dir).noda $dir;
+  done
+
+  # run .js
+  for js in $(ls *.js); do
+    node $js
+  done
+ 
+cd ..;
+
