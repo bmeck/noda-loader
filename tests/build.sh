@@ -1,3 +1,5 @@
+set -e
+
 cd basic;
   # generate .noda files
   for dir in $(ls -d */); do

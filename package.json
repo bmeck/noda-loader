@@ -12,7 +12,7 @@
     "debug": "^2.1.0",
     "has": "^1.0.0",
     "pako": "^0.2.5",
-    "module-system": "^0.1.0"
+    "module-system": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "^6.2.0",
