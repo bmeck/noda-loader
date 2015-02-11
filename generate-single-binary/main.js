@@ -32,7 +32,7 @@ try {
   var mod = new (_require('module'))(process.execPath, null);
   mod.parent = null;
   process.mainModule = mod;
-  process.argv.splice(2, 0, process.execPath);
+  process.argv.splice(1, 0, process.execPath);
   loaded_as_zip = true;
   require('module')._extensions['.noda'](mod, process.execPath);
 }
