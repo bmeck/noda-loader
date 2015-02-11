@@ -28,7 +28,6 @@ function evalScript(name) {
 var loaded_as_zip = false;
 try {
   var zip = require('../lib/zip.js').openSync(process.execPath)
-    var entry = (zip.mapEntriesSync()['t.js'])
   var mod = new (_require('module'))(process.execPath, null);
   mod.parent = null;
   process.mainModule = mod;
