@@ -1,3 +1,5 @@
+See releases for playing with single binaries or ... do the steps listed below.
+
 ## Generating a .noda from npm
 
 ```
@@ -11,6 +13,8 @@ zip -y -r $mypackage.noda package
 You most likely want to swap your current fs operation resource operations from the spec.
 
 ## Generating a single bootstrapping binary with .noda support
+
+If you don't want to compile things, use a release. :).
 
 Bear with me.
 
