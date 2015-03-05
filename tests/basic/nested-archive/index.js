@@ -1,1 +1,6 @@
-module.exports = require.extensions['.noda'];
+try {
+  module.exports = require('./package-json.noda'); 
+}
+catch (e) {
+  module.exports = undefined;
+}
