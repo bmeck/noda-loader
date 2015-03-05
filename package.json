@@ -1,6 +1,6 @@
 {
   "name": "noda-loader",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "lib/noda-module-system.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "module-system": "^1.0.0"
   },
   "devDependencies": {
+    "resource-shim": "1.x.x",
     "browserify": "^6.2.0",
     "through": "^2.3.6"
   }

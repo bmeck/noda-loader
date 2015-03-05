@@ -1,4 +1,5 @@
 require('../');
+require('resource-shim/polyfill.js')(require);
 /**
  * All the code below is from node/lib/module.js except for very minor tweaks
  */
